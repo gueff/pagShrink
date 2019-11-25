@@ -3,7 +3,7 @@ jquery plugin for Bootstrap 4: auto shrinks pagination (responsive)
 
 ## usage
 
-make sure by CSS that all anchor `<a>` items benath `<li>` have same dimensions of `width`and `height`.
+make sure by CSS that all anchor `<a>` items beneath `<li>` have same dimensions of `width`and `height`.
 
 _example css_
 ~~~css
