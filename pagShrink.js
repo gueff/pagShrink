@@ -22,7 +22,7 @@
 			this._getWidthOfItem = function () {
 
 				var oPageItem = $('.page-item');
-				var iWidthItem = $(oPageItem[0]).outerWidth();
+				var iWidthItem = Math.round($(oPageItem[(oPageItem.length-1)]).outerWidth());
 
 				return Math.round(iWidthItem);
 			}
