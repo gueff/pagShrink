@@ -12,7 +12,7 @@ $('.pagination').pagShrink();
 _html_
 
 ~~~html
-<ul class="pagination d-print-none">
+<ul class="pagination">
 	...
 	<li class="page-item">
 		<a class="page-link" href="#">
