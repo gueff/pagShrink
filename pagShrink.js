@@ -73,11 +73,11 @@
 				this.oLiElement = oContainer.find("li");
 				this.iMaxItems = Math.round(this.iPaginationWidth / this.iWidthItem);
 				this.iTooMuch = Math.round(this.oLiElement.length - this.iMaxItems);
-				this.iActive = $($('li.active')[0]).attr('data-id');
+				this.iActive = $('li.active').index();
 				this.aAdjust = this._getAdjustValues(
-						this.oLiElement.length,
-						this.iActive,
-						(this.iMaxItems - 4)
+					this.oLiElement.length,
+					this.iActive,
+					(this.iMaxItems - 5)
 				);
 				this._doCuttOff(2, (this.aAdjust[0] - 2));
 				this._doCuttOff((this.aAdjust[1]), (this.oLiElement.length - 2));
